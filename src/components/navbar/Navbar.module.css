@@ -1,0 +1,29 @@
+.text__color {
+	color: var(--text);
+}
+
+.button__github {
+	border: 2px solid var(--text);
+	color: var(--text);
+	transition: all 0.25s ease;
+}
+
+.button__github:hover {
+	color: var(--primary);
+	font-weight: 500;
+	background-color: var(--text);
+	transition: all 0.25s ease;
+}
+
+.button__weather {
+	border: 2px solid var(--primary);
+	color: var(--primary);
+	font-weight: 500;
+	transition: all 0.25s ease;
+}
+
+.button__weather:hover {
+	color: var(--text);
+	background-color: var(--primary);
+	transition: all 0.25s ease;
+}
